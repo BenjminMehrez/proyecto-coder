@@ -1,0 +1,337 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border: 1px solid black;
+    margin: 1rem;
+    margin-left: 8px;
+    border-radius: 12.5px;
+    padding-inline: 22px;
+    padding-block: 2px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+
+}
+
+
+img {
+    width: 326px;
+    height: 244px;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+    font-size: 60px;
+    text-shadow: 1px 1px rgba(255, 0, 46, 1);
+}
+
+.lobster__title {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px rgba(255, 0, 46, 1);
+    width: 141px;
+    height: 39px;
+    padding-left: 108px;
+}
+
+.lobster__chico {
+    font-size: 25px;
+    font-family: 'Lobster', cursive;
+    padding-inline-start: 110px;
+}
+
+/* .linea__nav {
+    width: 98px;
+    height: 0px;
+} */
+
+.linea {
+    width: 231px;
+    height: 2.5px;
+    margin-left: 115px;
+    background-color: black;
+}
+
+.icon {
+    display: flex;
+    align-self: center;
+    margin-bottom: 2px;
+
+}
+
+.header {
+    background-color: rgba(216, 172, 172, 1);
+    padding: 20px;
+    height: 71px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header__ul {
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 6rem;
+
+}
+
+.titulo__principal {
+    margin-bottom: 3rem;
+}
+
+/*----- PAGINA INDEX ------ */
+
+.body__index {
+    background: linear-gradient(213deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
+}
+
+
+.portada__decada {
+    font-family: 'Livvic', sans-serif;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    font-weight: 400;
+    font-size: large;
+
+}
+
+.portada__propia {
+    margin-bottom: 3px;
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.nosotros {
+    display: grid;
+    grid-template-columns: 25% 25% 25%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20rem;
+}
+
+.nosotros__lorem {
+    margin-top: 2rem;
+    width: 220px;
+    justify-content: center;
+    text-align: center;
+    margin-left: 5rem;
+    font-size: larger;
+    font-weight: 600;
+
+}
+
+
+/* ------- PAGINA MENÚ --------- */
+
+.body__menu {
+
+    background: linear-gradient(164deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
+}
+
+
+.titulo__menu {
+    margin-bottom: 3rem;
+    text-decoration: underline;
+}
+
+.subtitulo {
+    text-decoration: underline;
+}
+
+.panchos {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20rem;
+}
+
+.img {
+    width: 250px;
+    height: 170px;
+}
+
+
+/* ------ PAGINA CONTACTO -------- */
+
+.body__contacto {
+
+    background: linear-gradient(180deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
+}
+
+.contacto__titulo {
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+    font-size: 25px;
+    margin-bottom: 4rem;
+}
+
+
+.contacto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contacto__pregunta {
+    font-size: 2rem;
+
+}
+
+.contacto__texto {
+    font-size: 17px;
+}
+
+.nombre {
+    width: 443px;
+    height: 45px;
+    background: #D8ACAC;
+    border: 1px solid #000000;
+    border-radius: 13px;
+
+}
+
+.email {
+    background: #D8ACAC;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    width: 443px;
+    height: 45px;
+
+}
+
+.consulta {
+
+    background: #D8ACAC;
+    border: 1px solid #000000;
+    border-radius: 30px;
+    width: 901px;
+    height: 193px;
+
+}
+
+.enviar {
+    background: #D8ACAC;
+    border: 1px solid #000000;
+    border-radius: 13px;
+    width: 124px;
+    height: 46px;
+
+}
+
+
+
+
+/* ------ PAGINA PROMOS ---------- */
+
+.body__promos {
+
+    background: linear-gradient(270deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
+
+}
+
+.promo {
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.promos {
+    background: rgba(0, 0, 0, 0.62);
+    border-radius: 56px;
+    width: 1046px;
+    height: 608px;
+    margin-left: 197px;
+}
+
+
+.aprovecha {
+    width: 301px;
+    height: 37px;
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 25px;
+    color: #FFFFFF;
+    margin-left: 400px;
+    margin-top: 20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ------- PAGINA LOCALES ----------  */
+
+.body__locales {
+
+    background: linear-gradient(0deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(216, 172, 172, 1);
+    padding: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.novedades__email {
+    background-color: rgba(216, 172, 172, 1);
+    border: 1px solid black;
+    border-radius: 20px;
+    display: block;
+}
