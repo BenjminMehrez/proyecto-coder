@@ -1,10 +1,95 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
     font-family: 'Oswald', sans-serif;
 }
 
+li {
+    list-style: none;
+}
+
+.lobster {
+    font-family: 'Lobster', cursive;
+    text-shadow: 1px 1px rgba(255, 0, 46, 1);
+
+}
+
+.lobster-sub {
+    font-family: 'Lobster', cursive;
+    padding-left: 90px;
+    padding-top: 1px;
+}
+
+.bg-c-primary {
+    background-color: rgba(216, 172, 172, 1);
+}
+
+.c-primary {
+    background-color: rgba(216, 172, 172, 1);
+}
+
+.portada {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.espacio {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+.espaciofooter {
+    padding-bottom: 200px;
+}
+
+.lorem {
+    text-align: center;
+    width: 200px;
+
+}
+
+.ancho {
+    padding-top: 20px;
+    padding-bottom: 200px;
+}
+
+
+.textomapa {
+    padding-left: 50px;
+    padding-right: 200px;
+    padding-bottom: 200px;
+}
+
+
+.circulo {
+    width: 250px;
+    height: 250px;
+    background-color: rgba(215, 124, 124, 0.6);
+    padding-top: 70px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
 ul {
     list-style: none;
 }
@@ -57,6 +142,7 @@ img {
     height: 0px;
 } */
 
+/*
 .linea {
     width: 231px;
     height: 2.5px;
@@ -100,11 +186,12 @@ img {
 
 /*----- PAGINA INDEX ------ */
 
-.body__index {
+
+.index-bg {
     background: linear-gradient(213deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
 }
 
-
+/*
 .portada__decada {
     font-family: 'Livvic', sans-serif;
     margin-top: 1rem;
@@ -137,16 +224,17 @@ img {
     font-size: larger;
     font-weight: 600;
 
-}
+} */
 
 
 /* ------- PAGINA MENÚ --------- */
 
-.body__menu {
+.menu-bg {
 
     background: linear-gradient(164deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
 }
 
+/*
 
 .titulo__menu {
     margin-bottom: 3rem;
@@ -168,16 +256,17 @@ img {
 .img {
     width: 250px;
     height: 170px;
-}
+} */
 
 
 /* ------ PAGINA CONTACTO -------- */
 
-.body__contacto {
+.contacto-bg {
 
     background: linear-gradient(180deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
 }
 
+/*
 .contacto__titulo {
     display: flex;
     justify-content: center;
@@ -239,19 +328,20 @@ img {
     width: 124px;
     height: 46px;
 
-}
+} */
 
 
 
 
 /* ------ PAGINA PROMOS ---------- */
 
-.body__promos {
+.promos-bg {
 
     background: linear-gradient(270deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
 
 }
 
+/*
 .promo {
     font-size: 1.5rem;
     display: flex;
@@ -296,13 +386,12 @@ img {
 
 /* ------- PAGINA LOCALES ----------  */
 
-.body__locales {
+.locales-bg {
 
-    background: linear-gradient(0deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
-
+    background: linear-gradient(164deg, rgba(218, 171, 171, 1) 24%, rgba(173, 69, 69, 1) 100%);
 }
 
-
+/* 
 
 
 
@@ -335,4 +424,4 @@ footer {
     border: 1px solid black;
     border-radius: 20px;
     display: block;
-}
+} */
