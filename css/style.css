@@ -6,9 +6,23 @@ li {
     list-style: none;
 }
 
+.click {
+    color: #000000;
+}
+.click:hover {
+    text-shadow: 1px 1px rgba(255, 0, 46, 1);
+}
+
 .lobster {
     font-family: 'Lobster', cursive;
     text-shadow: 1px 1px rgba(255, 0, 46, 1);
+}
+
+.linea{
+    color: black;
+    width: 23px;
+    padding-left: 659px;
+    border: 3px solid #000000;
 
 }
 
@@ -70,7 +84,7 @@ li {
     width: 250px;
     height: 250px;
     background-color: rgba(215, 124, 124, 0.6);
-    padding-top: 60px;
+    padding-top: 70px;
     
 }
 
