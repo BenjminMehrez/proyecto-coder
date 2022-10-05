@@ -18,6 +18,8 @@ li {
     padding-top: 1px;
 }
 
+
+
 .bg-c-primary {
     background-color: rgba(216, 172, 172, 1);
 }
@@ -64,7 +66,7 @@ li {
     width: 250px;
     height: 250px;
     background-color: rgba(215, 124, 124, 0.6);
-    padding-top: 70px;
+    padding-top: 60px;
     
 }
 
