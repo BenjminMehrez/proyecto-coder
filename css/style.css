@@ -12,10 +12,14 @@ li {
 
 }
 
+.cursiva {
+    font-family: 'Lobster', cursive;
+}
+
 .lobster-sub {
     font-family: 'Lobster', cursive;
-    padding-left: 90px;
-    padding-top: 1px;
+    padding-left: 100px;
+    padding-top: 0px;
 }
 
 
