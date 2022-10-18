@@ -1,0 +1,86 @@
+.portada {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.espacio {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.bg-c-primary {
+  background-color: rgb(216, 172, 172);
+}
+
+.c-primary {
+  background-color: rgb(216, 172, 172);
+}
+
+.lobster {
+  font-family: "Lobster", cursive;
+  text-shadow: 1px 1px rgb(255, 0, 46);
+}
+
+.click {
+  color: #000000;
+}
+
+.click:hover {
+  text-shadow: 1px 1px rgb(255, 0, 46);
+}
+
+.cursiva {
+  font-family: "Lobster", cursive;
+}
+
+.espaciofooter {
+  padding-bottom: 200px;
+}
+
+.ancho {
+  padding-top: 20px;
+  padding-bottom: 200px;
+}
+
+.index-bg {
+  background: linear-gradient(213deg, rgb(218, 171, 171) 24%, rgb(173, 69, 69) 100%);
+}
+
+.menu-bg {
+  background: linear-gradient(164deg, rgb(218, 171, 171) 24%, rgb(173, 69, 69) 100%);
+}
+
+.contacto-bg {
+  background: linear-gradient(180deg, rgb(218, 171, 171) 24%, rgb(173, 69, 69) 100%);
+}
+
+.locales-bg {
+  background: linear-gradient(164deg, rgb(218, 171, 171) 24%, rgb(173, 69, 69) 100%);
+}
+
+.textomapa {
+  padding-left: 50px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+}
+
+.promos-bg {
+  background: linear-gradient(270deg, rgb(218, 171, 171) 24%, rgb(173, 69, 69) 100%);
+}
+
+.circulo {
+  width: 250px;
+  height: 250px;
+  background-color: rgba(215, 124, 124, 0.6);
+  padding-top: 70px;
+}
+
+/*# sourceMappingURL=style.css.map */
