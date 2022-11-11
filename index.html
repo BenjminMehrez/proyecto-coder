@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Mega Panchos</title>
 </head>
 
@@ -18,7 +19,7 @@
 
     <header class="navbar navbar-expand-lg c-primary border-bottom border-dark">
         <nav class="container">
-            <a class="navbar-brand lobster" href="./index.html">Mega Panchos</a>
+            <a class="navbar-brand lobster fs-3" href="./index.html">Mega Panchos</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,16 +27,16 @@
             <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./pages/menu.html">Menú</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./pages/menu.html">Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./pages/contacto.html">Contacto</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./pages/contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./pages/locales.html">Locales</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./pages/locales.html">Locales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./pages/promos.html">Promos</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./pages/promos.html">Promos</a>
                     </li>
                 </ul>
             </div>
@@ -55,9 +56,9 @@
             </div>
 
             
-            <h1 class="text-center pb-5">Más de una decada haciendo los mejores panchos del páis.</h1>
+            <h1 data-aos="fade-up" class="text-center pb-5 fs-2">Más de una decada haciendo los mejores panchos del páis.</h1>
             
-            <h2 class="text-center pt-5 text-decoration-underline fw-semibold">ELABORACION PROPIA</h2>
+            <h2 class="text-center pt-5 text-decoration-underline fw-semibold fs-3">ELABORACION PROPIA</h2>
             
         </div>
 
@@ -65,7 +66,7 @@
 
             <div class="row">
 
-                <div class="col-lg-4 text-center">
+                <div data-aos="fade-right" class="col-lg-4 text-center">
 
                     <img class="w-75 rounded-4" src="./assets/salchichas.jpg" alt="salchichas">
 
@@ -75,7 +76,7 @@
                         exigentes.</p>
 
                 </div>
-                <div class="col-lg-4 text-center">
+                <div data-aos="fade-up" class="col-lg-4 text-center">
 
                     <img class="w-75 rounded-4" src="./assets/chef.jpg" alt="chef">
 
@@ -85,7 +86,7 @@
                         clientes.</p>
 
                 </div>
-                <div class="col-lg-4 text-center">
+                <div data-aos="fade-left" class="col-lg-4 text-center">
 
                     <img class="w-75 rounded-4" src="./assets/megapancho.jpg" alt="megapancho">
 
@@ -125,8 +126,11 @@
         </div>
     </footer>
 
-
     <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>

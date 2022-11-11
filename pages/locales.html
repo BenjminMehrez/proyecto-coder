@@ -11,6 +11,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Oswald:wght@300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <title>Mega Panchos</title>
 </head>
 
@@ -18,7 +19,7 @@
 
     <header class="navbar navbar-expand-lg c-primary border-bottom border-dark">
         <nav class="container">
-            <a class="navbar-brand lobster" href="../index.html">Mega Panchos</a>
+            <a class="navbar-brand lobster fs-3" href="../index.html">Mega Panchos</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -26,16 +27,16 @@
             <div class="collapse navbar-collapse d-lg-flex justify-content-end" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./menu.html">Menú</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./menu.html">Menú</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./contacto.html">Contacto</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./contacto.html">Contacto</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./locales.html">Locales</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./locales.html">Locales</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link click text-decoration-underline" href="./promos.html">Promos</a>
+                        <a class="nav-link click text-decoration-underline fs-5" href="./promos.html">Promos</a>
                     </li>
                 </ul>
             </div>
@@ -54,13 +55,13 @@
             </div>
 
 
-            <h1 class="text-center fw-semibold text-decoration-underline mb-5 pb-5">ENCONTRANOS EN NUESTROS LOCALES</h1>
+            <h1 class="text-center fw-semibold text-decoration-underline mb-5 pb-5 fs-3">ENCONTRANOS EN NUESTROS LOCALES</h1>
 
             <section class="container text-center espaciofooter">
 
                     <div class="row pb-5">
 
-                        <div class="col-lg-6 bg-black text-white opacity-75 py-5 px-5 rounded-5 mb-5">
+                        <div data-aos="fade-right" class="col-lg-6 bg-black text-white opacity-75 py-5 px-5 rounded-5 mb-5">
                             <li>SUC. 6TA SECCION </li> 
                             <li>Av. San Martin Fijo: 261 - 288 7899 </li>
                             <li>Cel: 261 - 154 158 339 </li>
@@ -71,7 +72,7 @@
                             <li>DELIVERY de 11:00AM a 15:00PM y de 20:00 a 01:00PM</li> 
                         </div>
 
-                        <div class="col-lg-6 text-center pt-lg-3">
+                        <div data-aos="fade-left" class="col-lg-6 text-center pt-lg-3">
                             
                             <iframe class="w-75"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26084341.917257074!2d-81.6327334419076!3d-37.054533624307325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses!2sar!4v1663114105312!5m2!1ses!2sar"
@@ -83,7 +84,7 @@
 
                     <div class="row d-lg-flex flex-lg-nowrap pb-lg-5 mt-lg-5">
 
-                        <div class="col-lg-6 bg-black text-white opacity-75 py-5 px-5 rounded-5 mb-5 order-lg-1">
+                        <div data-aos="fade-left" class="col-lg-6 bg-black text-white opacity-75 py-5 px-5 rounded-5 mb-5 order-lg-1">
 
                             <li>SUC. Barrio Papa</li>
                             <li>Av. 9 de Julio Fijo: 261 - 834 4839</li>  
@@ -96,7 +97,7 @@
 
                         </div>
 
-                        <div class="col-lg-6 text-center pt-lg-3">
+                        <div data-aos="fade-right" class="col-lg-6 text-center pt-lg-3">
                             
                             <iframe class="col-lg-6 w-75"
                             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26084341.917257074!2d-81.6327334419076!3d-37.054533624307325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaf5f5fdc667%3A0x3d2f77992af00fa8!2sArgentina!5e0!3m2!1ses!2sar!4v1663114105312!5m2!1ses!2sar"
@@ -137,6 +138,10 @@
     </footer>
 
     <script src="../js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
